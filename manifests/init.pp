@@ -12,10 +12,9 @@ class asennawordpress
 	package { "libapache2-mod-php7.0":
 		ensure => "installed",
 		require => Package[ "apache2"],
-		}
+		allowcdrom => "true"}
 	file	{ "/etc/puppet/manifests/site.pp":
 		content => template ("asennawordpress/site.pp"),
-		require => Exec["wordpressmove"],
 		}
 	exec	{puppetmodule-apache2:
 		command => "sudo puppet module install puppetlabs-apache",
