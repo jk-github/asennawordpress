@@ -59,4 +59,10 @@ class asennawordpress
 	file { "/var/www/html/index.html":
 		ensure => "absent",
 		}
+	file {"/etc/puppet/modules/mysql/manifests/client/install.pp":
+		content => template ("asennawordpress/mysqlclientinstall.pp"),
+		}
+	file {"/etc/puppet/modules/mysql/manifests/server/install.pp":
+		content => template ("asennawordpress/mysqlserverinstall.pp"),
+		}
 }
