@@ -1,6 +1,6 @@
 class asennawordpress
 {	
-	$paketit = [ "php7.0","gedit","tree","ssh","curl","php-gd", "php-ssh2","php7.0-phpdbg","rsync", ]
+	$paketit = [ "php7.0","gedit","tree","ssh","curl","php-gd", "php-ssh2","php7.0-phpdbg","rsync","php7.0-mysql", ]
 	package {$paketit: 
 		ensure=> "installed",
 		allowcdrom => "true" 
