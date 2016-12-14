@@ -1,6 +1,8 @@
 # asennawordpress
 Installs wordpress via puppet
 
+Note: overwrites the site.pp file so make a backup if you want to save it.
+
 ##Usage
 
 Clone the module to /etc/puppet/modules run for first time with 
