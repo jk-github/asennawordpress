@@ -17,4 +17,4 @@ finally restart apache if localhost complains about missing mysql extension with
 
 sudo service apache2 reload
 
-Then you can enter ytour detail and start using wordpress.
+Then you can enter your details and start using wordpress.
