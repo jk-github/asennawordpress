@@ -1,7 +1,10 @@
 # asennawordpress
 Installs wordpress to linux via puppet
 
+Downloads puppetlabs modules to manage mysql and apache2 installations and creates a user account for wordpress on mysql.
+
 Note: overwrites the site.pp file so make a backup if you want to save it.
+NoteII: The root password used for mysql installation is unsecure since its stored here as plaintext make sure to change it for actual use.
 
 ##Usage
 
