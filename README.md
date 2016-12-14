@@ -17,4 +17,4 @@ finally restart apache if localhost complains about missing mysql extension with
 
 sudo service apache2 reload
 
-Then you can enter your  at http://localhost details and start using wordpress.
+Then you can enter your details at  http://localhost and start using wordpress.
