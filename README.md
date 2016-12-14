@@ -1,5 +1,5 @@
 # asennawordpress
-Installs wordpress via puppet
+Installs wordpress to linux via puppet
 
 Note: overwrites the site.pp file so make a backup if you want to save it.
 
@@ -17,4 +17,4 @@ finally restart apache if localhost complains about missing mysql extension with
 
 sudo service apache2 reload
 
-Then you can enter your details and start using wordpress.
+Then you can enter your  at http://localhost details and start using wordpress.
