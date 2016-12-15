@@ -22,3 +22,7 @@ finally restart apache if localhost complains about missing mysql extension with
 sudo service apache2 reload
 
 Then you can enter your details at  http://localhost and start using wordpress.
+
+##Changing mysql password
+
+Change the site.pp file in templates to change mysql password. You can also remove this to lock the root user for mysql.
